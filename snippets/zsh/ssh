@@ -1,0 +1,2 @@
+ssh-keygen -t rsa -C "yassine@algomo.com" && pbcopy < ~/.ssh/id_rsa.pub
+

@@ -1,0 +1,42 @@
+# Motions
+hjkl - move
+w - move forward a word
+b - move backward a word
+
+Question: How do I enable relative line numbers?
+
+# Visual mode
+v - enter visual mode
+shift v - enter visual line mode
+
+y - copy
+p - paste
+x - delete char
+s - delete char and enter insert mode 
+Note: deleted text ends up in paste bucket thing.
+
+u - undo
+ctrl r - redo
+
+Actions can be augmented with numbers, i.e.
+- w3 - move 3 words forward
+- d3w - delete 3 words
+- k10 - move 10 lines up
+- y5d - yank (copy) five lines down
+
+f - go to next occurrence of char
+F - go to previous occurrence of char
+c - delete and enter insert mode
+d - delete
+D - delete rest of line from cursor
+
+Pair motions:
+i - inside: select everything surrounded by char 
+a - around : select everything surrounded by char include char
+
+Best Motions:
+- ciw : delete word under cursor and enter insert mode
+- ci{ : delete everything within the {} and enter insert mode
+- yiw : copy word under cursor 
+- yi{ : copy everything within the {} 
+- 
